@@ -1,7 +1,3 @@
-# 卿雨竹
-# 开发时间：2025-03-29 21:28
-# 画百分位数对F1的影响的折线图
-
 from kan import *
 from data_load import *
 from utils import *
@@ -176,3 +172,4 @@ plt.title('百分位数对F1分数的影响')
 plt.tight_layout()
 plt.savefig(f'{output_dir}/auroc_aupr_percentile_f1_curves.png')
 plt.show()
+
