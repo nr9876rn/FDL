@@ -1,7 +1,3 @@
-# 卿雨竹
-# 开发时间：2025-03-14 15:37
-# 效果不错欸
-
 from kan import *
 from data_load import *
 from utils import *
@@ -246,4 +242,5 @@ plt.grid(True)
 # 保存图片
 plt.savefig(f'{output_dir}/latent_space_visualization.png', dpi=300)
 plt.show()
+
 """
