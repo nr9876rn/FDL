@@ -1,7 +1,3 @@
-# 卿雨竹
-# 开发时间：2025-03-29 21:28
-# 打印输出更多指标
-
 from kan import *
 from data_load import *
 from utils import *
@@ -203,4 +199,5 @@ plt.title('Effect of Percentile on F1 Score')
 plt.tight_layout()
 plt.savefig(f'{output_dir}/auroc_aupr_percentile_f1_curves.png')
 plt.show()
+
 """
