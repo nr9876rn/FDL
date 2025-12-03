@@ -1,7 +1,3 @@
-# 卿雨竹
-# 开发时间：2025-03-14 15:37
-# 输出可解释公式和图
-
 from kan import *
 from data_load import *
 from utils import *
@@ -91,5 +87,6 @@ for i in range(output_dim):
 
 model.plot()
 plt.show()
+
 
 
